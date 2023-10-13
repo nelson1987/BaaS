@@ -2,6 +2,15 @@
 
 namespace ContaCorrente.Api.Features;
 
+//Conta
+//Movimentacao
+//Cartao
+//Cheque
+//Emprestimo
+//Financiamento Imovel
+//Financiamento Casa
+
+
 public class CriacaoContaCommand : ICommand
 {
     public required string Nome { get; set; }

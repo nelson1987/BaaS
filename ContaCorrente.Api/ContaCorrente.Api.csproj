@@ -21,4 +21,8 @@
     <Folder Include="Features\Movimentacao\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ContaCorrente.Domain\ContaCorrente.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
